@@ -1,0 +1,20 @@
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin absolute-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@mixin main-text{
+    font-family: $font-main;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 120%;
+    color: #fff;
+}
